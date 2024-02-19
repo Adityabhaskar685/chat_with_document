@@ -1,0 +1,11 @@
+langchain
+langchain-community
+langchain-core
+faiss-gpu
+chromadb
+streamlit
+sentence-transformers
+torch
+rich
+loguru
+unstructured

@@ -1,0 +1,139 @@
+[32m2024-02-19 09:40:38.327[0m | [1mINFO    [0m | [36mclient[0m:[36mstream[0m:[36m46[0m - [1mListing 3: Prompt used to identify supporting context (i.e., list of locations and agronomic topics mentioned) from a document during question generation.
+
+2.4 Answer Generation
+
+We employ Retrieval-Augmented Generation (RAG) (Lewis et al., 2020), which is an innovative approach that combines the power of retrieval and generation mechanisms, to create high-quality answers. RAG is particularly useful when dealing with large and complex datasets, as it can effectively recover relevant information associated with a query and use it to enhance the generation process.
+
+The RAG pipeline begins by retrieving, for a given question, the most relevant documents or passages from our dataset. The retrieval system employs techniques such as BM25, Dense Retrieval (Reimers and Gurevych, 2019; Ni et al., 2022), and other advanced retrieval mechanisms. The retrieved documents serve as a knowledge source for the subsequent generation phase. Once the relevant passages have been identified, the generation component comes into play. An LLM takes the question and the retrieved information as inputs and generates a contextually appropriate answer. The generation process is guided by the context provided by the retrieved documents, ensuring that the generated Q&A pairs are accurate, relevant, and informative. More specifically, the generation process follows three steps:
+
+Embedding generation and index construction: we compute embeddings from text chunks extracted from the PDF documents in our dataset, using sentence transformers (Reimers and Gurevych, 2019). We then used Facebook AI Similarity Search (FAISS) (Johnson et al., 2019), a library for efficient indexing and similarity search of vectors, to create a database of the embeddings.[0m
+[32m2024-02-19 09:42:48.538[0m | [1mINFO    [0m | [36mclient[0m:[36mstream[0m:[36m46[0m - [1mListing 3: Prompt used to identify supporting context (i.e., list of locations and agronomic topics mentioned) from a document during question generation.
+
+2.4 Answer Generation
+
+We employ Retrieval-Augmented Generation (RAG) (Lewis et al., 2020), which is an innovative approach that combines the power of retrieval and generation mechanisms, to create high-quality answers. RAG is particularly useful when dealing with large and complex datasets, as it can effectively recover relevant information associated with a query and use it to enhance the generation process.
+
+The RAG pipeline begins by retrieving, for a given question, the most relevant documents or passages from our dataset. The retrieval system employs techniques such as BM25, Dense Retrieval (Reimers and Gurevych, 2019; Ni et al., 2022), and other advanced retrieval mechanisms. The retrieved documents serve as a knowledge source for the subsequent generation phase. Once the relevant passages have been identified, the generation component comes into play. An LLM takes the question and the retrieved information as inputs and generates a contextually appropriate answer. The generation process is guided by the context provided by the retrieved documents, ensuring that the generated Q&A pairs are accurate, relevant, and informative. More specifically, the generation process follows three steps:
+
+Embedding generation and index construction: we compute embeddings from text chunks extracted from the PDF documents in our dataset, using sentence transformers (Reimers and Gurevych, 2019). We then used Facebook AI Similarity Search (FAISS) (Johnson et al., 2019), a library for efficient indexing and similarity search of vectors, to create a database of the embeddings.[0m
+[32m2024-02-19 09:47:44.751[0m | [1mINFO    [0m | [36mclient[0m:[36mstream[0m:[36m46[0m - [1mListing 3: Prompt used to identify supporting context (i.e., list of locations and agronomic topics mentioned) from a document during question generation.
+
+2.4 Answer Generation
+
+We employ Retrieval-Augmented Generation (RAG) (Lewis et al., 2020), which is an innovative approach that combines the power of retrieval and generation mechanisms, to create high-quality answers. RAG is particularly useful when dealing with large and complex datasets, as it can effectively recover relevant information associated with a query and use it to enhance the generation process.
+
+The RAG pipeline begins by retrieving, for a given question, the most relevant documents or passages from our dataset. The retrieval system employs techniques such as BM25, Dense Retrieval (Reimers and Gurevych, 2019; Ni et al., 2022), and other advanced retrieval mechanisms. The retrieved documents serve as a knowledge source for the subsequent generation phase. Once the relevant passages have been identified, the generation component comes into play. An LLM takes the question and the retrieved information as inputs and generates a contextually appropriate answer. The generation process is guided by the context provided by the retrieved documents, ensuring that the generated Q&A pairs are accurate, relevant, and informative. More specifically, the generation process follows three steps:
+
+Embedding generation and index construction: we compute embeddings from text chunks extracted from the PDF documents in our dataset, using sentence transformers (Reimers and Gurevych, 2019). We then used Facebook AI Similarity Search (FAISS) (Johnson et al., 2019), a library for efficient indexing and similarity search of vectors, to create a database of the embeddings.[0m
+[32m2024-02-19 14:24:16.167[0m | [1mINFO    [0m | [36mrag.client[0m:[36mstream[0m:[36m46[0m - [1mListing 3: Prompt used to identify supporting context (i.e., list of locations and agronomic topics mentioned) from a document during question generation.
+
+2.4 Answer Generation
+
+We employ Retrieval-Augmented Generation (RAG) (Lewis et al., 2020), which is an innovative approach that combines the power of retrieval and generation mechanisms, to create high-quality answers. RAG is particularly useful when dealing with large and complex datasets, as it can effectively recover relevant information associated with a query and use it to enhance the generation process.
+
+The RAG pipeline begins by retrieving, for a given question, the most relevant documents or passages from our dataset. The retrieval system employs techniques such as BM25, Dense Retrieval (Reimers and Gurevych, 2019; Ni et al., 2022), and other advanced retrieval mechanisms. The retrieved documents serve as a knowledge source for the subsequent generation phase. Once the relevant passages have been identified, the generation component comes into play. An LLM takes the question and the retrieved information as inputs and generates a contextually appropriate answer. The generation process is guided by the context provided by the retrieved documents, ensuring that the generated Q&A pairs are accurate, relevant, and informative. More specifically, the generation process follows three steps:
+
+Embedding generation and index construction: we compute embeddings from text chunks extracted from the PDF documents in our dataset, using sentence transformers (Reimers and Gurevych, 2019). We then used Facebook AI Similarity Search (FAISS) (Johnson et al., 2019), a library for efficient indexing and similarity search of vectors, to create a database of the embeddings.[0m
+[32m2024-02-19 14:33:28.435[0m | [1mINFO    [0m | [36mrag.client[0m:[36mstream[0m:[36m46[0m - [1mFurthermore, these kinds of controls are meant to keep exploits only out of the hands of criminals and rogue actors, such as terrorists. They’re not meant at all to curb government use of them
+
+for law enforcement or national security purposes. The thriving gray market for zero days makes it clear that law enforcement and spy agencies are anxious to get their hands on exploits like the ones that Stuxnet used—and are willing to pay generously for the privilege. That frenzied demand for zero days is only likely to grow, and with it, the number of state-sponsored programs that use them.
+
+1 See Andy Greenberg, “Shopping for Zero-Days: A Price List for Hackers’ Secret Software
+
+Exploits,” Forbes, March 23, 2012. Zero-day vulnerabilities have become more challenging
+
+to  nd in recent years as the makers of some of the most targeted software programs have
+
+added features to make them more secure. Google and other companies have built so-called
+
+sandboxes into their browsers, for example, that erect a protective barrier to contain
+
+malicious code and prevent it from spilling out of the browser into the operating system or
+
+other applications on a machine. As a result, exploits that allow an attacker to escape a
+
+sandbox are valuable.
+
+2 Charlie Miller, “The Legitimate Vulnerability Market: Inside the Secretive World of 0-Day
+
+Exploit Sales,” Independent Security Evaluators, May 6, 2007, available at weis2007.
+
+econinfosec. org/ papers/ 29. pdf.
+
+3 Author interview with Charlie Miller, September 2011.
+
+4 Ibid.
+
+5 Greenberg, “Shopping for Zero-Days: A Price List for Hackers’ Secret Software Exploits.”
+
+6 Tonya Layman, “Rouland’s Tech Security Firm Growing Fast,” Atlanta Business Chronicle,
+
+June 11, 2011.
+
+7 This and all quotes from Bekrar in this chapter are from an author interview in March
+
+2012, unless otherwise cited.
+
+8 From a press release titled “VUPEN Gets Entrepreneurial Company of the Year Award in[0m
+[32m2024-02-19 14:34:00.167[0m | [1mINFO    [0m | [36mrag.client[0m:[36mstream[0m:[36m46[0m - [1mindividuals who were running
+
+The timing of the revelations wasn’t lost on Hinderstein. Iran was a signatory to the Treaty on the Nonproliferation of Nuclear Weapons, and under its safeguards agreement with the IAEA it was obligated to disclose the existence of any new nuclear facility 180 days before introducing nuclear material to the site so that inspectors could begin monitoring it. If the Natanz plant was indeed ninety days away from completion, then Jafarzadeh’s group had exposed it just in time for IAEA inspectors to demand access to it before it opened.
+
+All of this raised obvious questions about how the NCRI got their hands on top-secret intelligence that had seemingly eluded the world’s top spy agencies for years. Jafarzadeh insisted that his group obtained the information from people inside Iran who were directly associated with the program, as well as through extensive research and investigation by his group. But more likely it had come from US or Israeli intelligence agencies.5 Israel had a history of leaking intelligence by proxy in order to sway public opinion without tainting the intelligence with its own political agenda. Israel was naturally the country with the most to fear from a nuclear-armed Iran, but it had obvious integrity issues when it came to calling out the nuclear activities of other nations, since it had long maintained its own covert nuclear weapons program, which it has never publicly acknowledged.6 For this and other reasons, it conducted its political machinations behind the scenes by feeding intelligence to Western governments, the IAEA, and groups like Jafarzadeh’s.
+
+If the information did come from the United States or Israel, Jafarzadeh’s group was an odd choice to leak it. The NCRI was the[0m
+[32m2024-02-19 14:34:27.526[0m | [1mINFO    [0m | [36mrag.client[0m:[36mstream[0m:[36m46[0m - [1mless
+
+Usually, malicious code that lurks in memory will still need to ask the system to load additional code from  les that it stores on the computer’s disk. But antivirus engines will spot this behavior as well, so Stuxnet did it one better. Stuxnet kept all of the code it needed to operate inside itself, stored as virtual  les with specially crafted names. Ordinarily this wouldn’t work because when Stuxnet tried to call up this code, the operating system wouldn’t recognize the names or would look for the oddly named  les on disk and not be able to  nd them. But Stuxnet “hooked” or reprogrammed part of the Windows API—the interface between the operating system and the programs that run on top of it—so that anytime it called on these oddly named  les, the operating system would simply go to Stuxnet, sitting in memory, to obtain the code instead. If an antivirus engine grew suspicious of the  les in memory and tried to examine them, Stuxnet was prepared for this as well. Because it controlled parts of the Windows API responsible for displaying the attributes of  les, it simply tricked the scanner into thinking the  les were empty, essentially telling it, “Nothing to see here, move along.”3
+
+But this wasn’t the end of it. Normal malware executes its code in a straightforward manner by simply calling up the code and launching it. But this was too easy for Stuxnet. Instead, Stuxnet was built like a Rube Goldberg machine so that rather than calling and executing its code directly, it planted the code inside another block of code that was already running in a process on the machine, then took the code that was running in that process and slipped it inside a block of code running in another process to further obscure it.[0m
+[32m2024-02-19 14:34:51.773[0m | [1mINFO    [0m | [36mrag.client[0m:[36mstream[0m:[36m46[0m - [1mThis context is not confident. Hebrew name. Before changing her name and becoming the queen of Persia, Esther had been known by the name Hadassah. Hadassah in Hebrew means myrtle, or myrtus.
+
+The parallels between ancient and modern Persia were not hard to draw, in light of current events. In 2005, news reports claimed that Iranian president Mahmoud Ahmadinejad had called for Israel to be wiped o  the face of the map. Though subsequent reports determined that his words had been mistranslated, it was no secret that Ahmadinejad wished the modern Jewish state to disappear, just as Haman had wanted his Jewish contemporaries to disappear centuries before.9 And on February 13, 2010, around the same time that Stuxnet’s creators were preparing a new version of their attack to launch against machines in Iran, Rav Ovadia Yosef, an in uential former chief rabbi of Israel and a political powerhouse, drew a direct line between ancient Persia and modern Iran in a sermon he gave before Purim. Ahmadinejad, he said, was the “Haman of our generation.”
+
+“Today we have a new Haman in Persia, who is threatening us with his nuclear weapons,” Yosef said. But like Haman and his henchmen before, he said, Ahmadinejad and his supporters would  nd their bows destroyed and their swords turned against them to “strike their own hearts.”10
+
+None of this, however, was evidence that the “myrtus” in Stuxnet’s driver was a reference to the Book of Esther. Especially when read another way, as some later suggested, myrtus could easily have been interpreted as “my RTUs”—or “my remote terminal units.” RTUs, like PLCs, are industrial control components used to operate and monitor equipment and processes. Given that Stuxnet was targeting Siemens PLCs, it seemed just as possible that this was its real meaning.11 But who could say for sure?
+
+The Symantec researchers were careful not to draw any conclusions from the data. Instead, in a blog post written by Chien and a colleague, they said simply, “Let the speculation begin.”12[0m
+[32m2024-02-19 14:36:38.079[0m | [1mINFO    [0m | [36mrag.client[0m:[36mstream[0m:[36m46[0m - [1mThe subsequent Iran–Iraq war wasn’t kind to the abandoned reactors. Throughout the eight-year war, which ran from 1980 to 1988, Iraq bombed the two towers more than half a dozen times, leaving them in ruins.21 During the war, the commander of Iran’s Revolutionary Guard urged the Ayatollah Khomeini to launch a nuclear weapons program to fend o  Iraq and its Western allies. But Khomeini refused, believing that nuclear weapons were anathema to Islam and a violation of its basic moral principles. He apparently changed his mind, however, after Saddam Hussein unleashed chemical weapons on Iranian troops and civilians, killing about 25,000 and injuring more than 100,000 others. Incensed by the UN’s passive reaction, and alarmed at rumors that Iraq was seeking to build nuclear weapons of its own, Khomeini decided to revive Iran’s nuclear program. This included developing a uranium enrichment program.22
+
+To launch the program, Iran turned to a Pakistani metallurgist named Abdul Qadeer Khan for help. Khan had been instrumental in helping Pakistan build its nuclear weapons program in the mid- 1970s, using centrifuge technology he had stolen from Europe. Khan had worked for a Dutch company that conducted centrifuge research and development for Urenco, a consortium formed by Germany, Great Britain, and the Netherlands to develop centrifuges for nuclear power plants in Europe. As part of his job, Khan had access to sensitive centrifuge designs that he copied and took back to Pakistan. He also absconded with lists of suppliers, many of whom were willing to secretly sell Pakistan parts and materials to make the centrifuges for its program.[0m
+[32m2024-02-19 14:37:28.899[0m | [1mINFO    [0m | [36mrag.client[0m:[36mstream[0m:[36m46[0m - [1mThis context is not confident. Hebrew name. Before changing her name and becoming the queen of Persia, Esther had been known by the name Hadassah. Hadassah in Hebrew means myrtle, or myrtus.
+
+The parallels between ancient and modern Persia were not hard to draw, in light of current events. In 2005, news reports claimed that Iranian president Mahmoud Ahmadinejad had called for Israel to be wiped o  the face of the map. Though subsequent reports determined that his words had been mistranslated, it was no secret that Ahmadinejad wished the modern Jewish state to disappear, just as Haman had wanted his Jewish contemporaries to disappear centuries before.9 And on February 13, 2010, around the same time that Stuxnet’s creators were preparing a new version of their attack to launch against machines in Iran, Rav Ovadia Yosef, an in uential former chief rabbi of Israel and a political powerhouse, drew a direct line between ancient Persia and modern Iran in a sermon he gave before Purim. Ahmadinejad, he said, was the “Haman of our generation.”
+
+“Today we have a new Haman in Persia, who is threatening us with his nuclear weapons,” Yosef said. But like Haman and his henchmen before, he said, Ahmadinejad and his supporters would  nd their bows destroyed and their swords turned against them to “strike their own hearts.”10
+
+None of this, however, was evidence that the “myrtus” in Stuxnet’s driver was a reference to the Book of Esther. Especially when read another way, as some later suggested, myrtus could easily have been interpreted as “my RTUs”—or “my remote terminal units.” RTUs, like PLCs, are industrial control components used to operate and monitor equipment and processes. Given that Stuxnet was targeting Siemens PLCs, it seemed just as possible that this was its real meaning.11 But who could say for sure?
+
+The Symantec researchers were careful not to draw any conclusions from the data. Instead, in a blog post written by Chien and a colleague, they said simply, “Let the speculation begin.”12[0m
+[32m2024-02-19 14:37:51.411[0m | [1mINFO    [0m | [36mrag.client[0m:[36mstream[0m:[36m46[0m - [1mThis context is not confident. The news of US involvement in developing and releasing the digital weapon should have created a stir in Washington and in other government circles beyond. But it was largely met with silence, despite the fact that it raised a number of troubling questions—not only about the risks it created for US critical infrastructures that were vulnerable to the same kind of attack, but about the ethical and legal considerations of unleashing a destructive digital attack that was essentially an act of war. Ralph Langner had been right in signing o  his original post about Stuxnet the way he did. With con rmation, albeit uno cial, that Israel and the United States were behind the attack, the world had now formally entered the age of cyberwarfare.
+
+1 This and all quotes from Chien are from author interviews in 2010 and 2011.
+
+2 “STL” stands for Statement List programming language.
+
+3 Chien had no idea why Siemens wasn’t more responsive. It was possible the company
+
+didn’t consider the issue an urgent one, since only about a dozen Siemens customers
+
+reported being infected by Stuxnet. It was also possible Siemens wasn’t used to dealing with
+
+in-depth questions about its software. The Symantec researchers weren’t asking questions
+
+that could be answered easily by product reps; they were fundamental engineering
+
+questions about how the Siemens code worked. This required the company to track down
+
+programmers who’d worked on the Step 7 system. But it’s also possible that Siemens was
+
+relatively quiet on Stuxnet because the company didn’t want to stir up discussions about its
+
+business in Iran. The company had recently found itself in hot water after a shipment of its
+
+controllers was seized in Dubai on its way to Iran for the uranium enrichment program.
+
+Another shipment of Siemens turbo processors was intercepted in Hamburg by export
+
+authorities as it was on its way to Iran. Both of these shipments violated European Union[0m

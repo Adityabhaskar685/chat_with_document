@@ -1,0 +1,6 @@
+.lightning_studio
+__pycache__
+.env
+zephyr-7b-beta.Q5_K_M.gguf
+.ollama
+nltk_data
