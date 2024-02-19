@@ -4,3 +4,5 @@ __pycache__
 zephyr-7b-beta.Q5_K_M.gguf
 .ollama
 nltk_data
+.vscode
+experiment.ipynb
